@@ -1,0 +1,19 @@
+body {
+    background-color: #D9E6F7;
+}
+.principal {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 25% 50% 25%;
+    margin: 2em 4em;
+
+}
+
+.depoimentos {
+    grid-column: 2/3;
+}
+
+.secao__amigos {
+    grid-column: 3/4;
+    grid-row: 1/2
+}

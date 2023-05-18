@@ -1,0 +1,33 @@
+.depoimentos {
+    background-color: #FDFEFF;
+    border-radius: 20px;
+    padding: 1em;
+}
+
+.titulo__depoimentos {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.secao__depoimento {
+    display: flex;
+    margin: 2em 0;
+}
+
+.imagem__depoimento {
+    width: 50px;
+    height: 50px;
+}
+
+.depoimentos__nomeTexto {
+    margin-left: 1em;
+}
+
+.depoimento__nome {
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.depoimento__texto {
+    font-weight: 400;
+}

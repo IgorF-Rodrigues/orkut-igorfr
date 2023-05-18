@@ -1,0 +1,47 @@
+.secao__comunidade {
+    background-color: #FDFEFF;
+    border-radius: 25px;
+    display: grid;
+    gap: 1em;
+    grid-template-areas: 'amigos amigos amigos'
+                         'olivia diavolo von'
+                         'kayn john akali'
+                         'sally dulce mia';
+    padding: 1em
+}
+
+.titulo__comunidade {
+    align-items: center;
+    display: flex;
+    grid-area: amigos;
+    justify-content: space-between;
+}
+
+.quantidades__comunidades {
+    color: #4B4B4B;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.texto__comunidades {
+    color: #ED2590;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.div__comunidades {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem__comunidade {
+    width: 69px;
+    margin-bottom: .5em;
+}
+
+.nome__comunidade {
+    color: #4B4B4B;
+    font-size: 14px;
+    font-weight: 400;
+}

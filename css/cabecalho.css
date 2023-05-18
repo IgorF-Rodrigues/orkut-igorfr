@@ -1,0 +1,70 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.cabecalho {
+    align-items: center;
+    background-color: #FDFEFF;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.logo__cabecalho {
+    height: 39px;
+    width: 132px;
+}
+
+.lista__cabecalho__link, .lista__cabecalho__pesquisa, .lista__cabecalho__perfil {
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+
+.link__cabecalho {
+    margin: .25em;
+}
+
+.link__cabecalho, .perfil__cabecalho {
+    color: #4B4B4B;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.link__cabecalho:hover {
+    color: #ED2590;
+}
+
+.lista__cabecalho__pesquisa {
+    background: #EFF3F8;
+    border: none;
+    border-radius: 5px;
+    padding: .5em;
+    padding-right: 2em;
+}
+
+.lista__cabecalho__pesquisa::placeholder {
+    background-image: url(IMG/search.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-left: 2em;
+}
+
+.lista__cabecalho__perfil {
+    margin: 0.25em;
+}
+
+.perfil__cabecalho {
+    font-weight: 700;
+    padding: 1em;
+}
+
+.foto__cabecalho {
+    width: 42px;
+}
+
+.icone__cabecalho {
+    width: 12px;
+}

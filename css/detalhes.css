@@ -1,0 +1,69 @@
+.perfil__detalhes {
+    background-color: #FDFEFF;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 3em;
+
+}
+
+.detalhes__nome {
+    font-size: 26px;
+    font-weight: 700;
+    padding: .5em 0;
+}
+
+.detalhes__bolha {
+    background-image: url(/IMG/Bubble.png);
+    background-repeat: no-repeat;  
+    background-position-y: center ; 
+    background-size: 80vw;
+    color: #4B4B4B;
+    padding: 0.5em;
+}
+
+.lista__detalhes {
+    display: flex;
+    gap: 2em;
+    list-style: none;
+}
+
+.item__detalhes {
+    color: #4B4B4B;
+    margin-top: 1em;
+}
+
+.div__itemfirst {
+    display: flex;
+    align-items: center;
+}
+
+.div__itemfirst p {
+    margin-left: .25em;
+}
+
+.item__classe {
+    color: #4B4B4B;
+    margin-right: 1em;
+    font-weight: 400;
+}
+
+.titulo__tabela {
+    color: #4B4B4B;
+    font-weight: 500;
+    opacity: 0.5;
+    padding: 1em 2em 1em 0 ;
+}
+
+.tabela__musica, .tabela__filme, .tabela__livro {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em 2em 1em 0 ;
+}
+
+.tabela__cantor, .tabela__filmepreferido, .tabela__autor {
+    border: 1px solid #ED2590;
+    border-radius: 15px;
+    margin: 0 0.5em 0.25em 0;
+    padding: 0.25em 0.5em;
+}

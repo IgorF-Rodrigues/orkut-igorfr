@@ -1,0 +1,46 @@
+.secao__amigos {
+    background-color: #FDFEFF;
+    border-radius: 25px;
+    display: grid;
+    grid-template-areas: 'amigos amigos amigos'
+                         'olivia diavolo von'
+                         'kayn john akali'
+                         'sally dulce mia';
+    padding: 1em
+}
+
+.titulo__amigos {
+    align-items: center;
+    display: flex;
+    grid-area: amigos;
+    justify-content: space-between;
+}
+
+.quantidades__amigos {
+    color: #4B4B4B;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.texto__amigos {
+    color: #ED2590;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.div__amigo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem__amigos {
+    width: 69px;
+    margin-bottom: .5em;
+}
+
+.nome__amigos {
+    color: #4B4B4B;
+    font-size: 14px;
+    font-weight: 400;
+}
